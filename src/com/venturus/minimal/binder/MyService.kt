@@ -1,4 +1,4 @@
-package src.com.venturus.minimal.binder
+package com.venturus.minimal.binder
 
 import android.app.Service
 import android.content.Intent
