@@ -1,7 +1,10 @@
 android_app {
     name: "MinimalBinder",
     manifest: "AndroidManifest.xml",
-    srcs: ["src/**/*.kt"],
+    srcs: [
+        "src/**/*.kt",
+        "src/**/I*.aidl"
+    ],
     platform_apis: true,
     certificate: "platform",
     privileged: true,
